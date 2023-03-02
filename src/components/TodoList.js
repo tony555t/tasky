@@ -5,7 +5,7 @@ const TodoList = () => {
         <>
                <div className="header text-center">
             <h1>Todo List</h1>
-            <button className="btn btn-primary"> create task </button>
+            <button className="btn btn-primary mt-2"> create task </button>
 
         </div>
         <div className="task-container"> 
