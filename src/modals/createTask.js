@@ -2,7 +2,7 @@
     import React from "react"; 
     import { Button,Modal,ModalHeader,ModalBody,ModalFooter } from 'reactstrap';
 
-    const createTask =()=>{
+    const createTask =(modal,toggle)=>{
         return(
 
     <Modal isOpen={modal} toggle={toggle}>
