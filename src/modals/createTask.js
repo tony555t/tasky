@@ -9,13 +9,22 @@
     <ModalHeader toggle={toggle}>Modal title</ModalHeader>
     <ModalBody>
     <Form>
+        <div  className="form group">
+            <label>Task Name</label>
+            <input type="text" className="form-control" placeholder="Enter Task Name" />
 
-        
+        </div>
+        <div className="form-group">
+            <label>description</label>
+            <textarea rows="5" className="form-control" placeholder="description" />
+        </div>
+
+
     </Form>
     </ModalBody>
     <ModalFooter>
     <Button color="primary" onClick={toggle}>
-        Do Something
+        create
     </Button>{' '}
     <Button color="secondary" onClick={toggle}>
         Cancel
